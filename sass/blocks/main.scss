@@ -1,0 +1,73 @@
+html {
+	box-sizing: border-box;
+}
+*,*::before,*::after {
+	box-sizing: inherit;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+a:hover,
+input[type="submit"]:hover{
+	opacity: 0.7;
+}
+p,ul,h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+}
+@keyframes shadow{
+	0% {background-color: gold;}
+	25% {background-color: black;}
+	50% {background-color: gray;}
+	75% {background-color: gold;}
+	100% {background-color: gray;}
+}
+@keyframes text{
+	0% {color: #fff; font-size: 15px;}
+	25% {color: #000;}
+	50% {color: #fff; font-size: 17px; font-style: italic;}
+	75% {color: #000;}
+	100% {color: #a9a9a9;}
+}
+@keyframes moveUp{
+	0% {top: 0;}
+	10% {top: -5px;}
+	20% {top: -10px;}
+	30% {top: -15px;}
+	40% {top: -20px;}
+	50% {top: -25px;}
+	60% {top: -30px;}
+	70% {top: -35px;}
+	80% {top: -40px;}
+	90% {top: -45px;}
+	100% {top: -50px;}
+}
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px; }
+body{
+	min-width: 330px;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+  @media (min-width: 660px) {
+
+body{
+	width: 1345px;
+	margin: 0 auto;
+	font-size: 17px;
+	font-weight: 400;
+	font-family: "Cuprum", "Ptsans",sans serif;
+	color: #fff;
+}
+.container{
+	width: 1345px;
+	margin: 0 auto;
+}
+}

@@ -1,0 +1,99 @@
+.page-footer{
+	position: relative;
+	background-color: #000;
+}
+.container--footer{
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+}
+.page-footer--logo{
+	position: relative;
+	text-align: center;
+}
+.footer-logo{
+	display: block;
+	z-index: 3;
+	flex-basis: 12%;
+	min-height: 55px;
+	display: none;
+	background: url(../img/dino-2.png) no-repeat center;
+}
+.socials{
+	display: flex;
+	flex-basis: 50%;
+	padding-top: 5px;
+	padding-bottom: 7px;
+}
+.social__link{
+	display: block;
+	width: 38px;
+	height: 36px;
+	margin-right: 20px;
+	background-color: #000;
+	border:1px solid #fff;
+	border-radius: 15%;
+}
+.social__link--gmail{
+	background: url(../img/icon-sprite.png) no-repeat 88% 37%;
+}
+.social__link--linkedin{
+	background: url(../img/icon-sprite.png) no-repeat 77% 76%;
+}
+.social__link--facebook{
+	background: url(../img/icon-sprite.png) no-repeat 54% 18%;
+}
+.social__link--lj{
+	background: url(../img/icon-sprite.png) no-repeat 88% 75%;
+}
+.development{
+	width: 90px;
+	margin-right: auto;
+}
+.dev__name{
+	padding-left: 12px;
+	padding-top: 12px;
+	font-size: 10px;
+	color: #fff;
+
+}
+.dev__name span{
+	font-size: 13px;
+	font-style: italic;
+	font-weight: bold;
+}
+.dev__date{
+	display: none;
+	font-size: 20px;
+	position: relative;
+	padding-top: 26px;
+	padding-right: 20px;
+	&::before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 25px;
+		height: 25px;
+		background: url(../img/icon-sprite.png) no-repeat 1% 0%;
+
+	}
+}
+@media (min-width: 660px) {
+ .footer-logo{
+	display: block;
+}
+ .social__link{
+	margin-right: 60px;
+}
+ .development{
+	flex-basis: 20%;
+}
+ .dev__name{
+	font-size: 12px;
+	width: 90px;
+}
+ .dev__date{
+	display: block;
+}
+}

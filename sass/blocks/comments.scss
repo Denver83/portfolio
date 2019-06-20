@@ -1,0 +1,56 @@
+.comments{
+	position: relative;
+	border: 10px solid #5f9ea0;
+	color: #000;
+}
+#comments{
+	width: 100%;
+	height: 100px;
+	padding: 30px;
+	font-size: 27px;
+}
+.comments__popup{
+	margin: 0;
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	font-size: 20px;
+	padding-left: 10px;
+	color: #000;
+}
+.comments__form{
+	width: 100%;
+	position: absolute;
+	top: -160px;
+	display: none;
+}
+.btn--comments{
+	display: block;
+	margin-left: auto;
+	margin-right: 2px;
+	margin-bottom: 4px;
+}
+.close-comments{
+	background-color: #fff;
+	position: absolute;
+	top: 1px;
+	right: 5px;
+	padding-top: 3px;
+}
+.comments__close{
+	outline: none;
+	background: transparent;
+	border: none;
+	width: 27px;
+	height: 25px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: url(../img/icon-sprite-2.jpg) no-repeat 0% 100%;
+}
+.comments__show{
+	display: block;
+}
+@media (min-width: 660px) {
+
+}

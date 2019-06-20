@@ -1,0 +1,41 @@
+.popup-block{
+	display: none;
+	position: absolute;
+	top: 59px;
+	right: 0;
+	width: 90%;
+	background-color: #000;
+	z-index: 5;
+}
+.popup-block__link{
+	display: block;
+	padding: 20px;
+	border-bottom: 1px solid #fff;
+}
+.close-block{
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	left: -27px;
+	padding-top: 3px;
+}
+.popup-block__close{
+	outline: none;
+	background: transparent;
+	border: none;
+	width: 27px;
+	height: 25px;
+	border-radius: 50%;
+	cursor: pointer;
+	background: url(../img/icon-sprite-2.jpg) no-repeat 0% 100%;
+}
+.modal-content__show{
+	display: block;
+}
+
+@media (min-width: 660px) {
+.popup-block{
+	right: 30px;
+	width: 20%;
+	}
+}
