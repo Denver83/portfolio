@@ -1,0 +1,19 @@
+.carousel{
+	display: flex;
+  background-color: #000;
+}
+.crsl-prev,
+.crsl-next{
+	background-color: #e5e5e5;
+	color: #000;
+	cursor: pointer;
+}
+/* 1 квадратик карусели */
+.carousel-element {
+	flex-basis: 100%;
+	padding: 30px;
+	width: 100%;
+	text-align: center;
+	font-size: 300%;
+	border-right: 1px solid #777;
+}

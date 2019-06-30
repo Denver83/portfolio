@@ -24,7 +24,6 @@ $('.prev').click(function(){
 	var nextImage = $('.slider__item').eq(nextImageIndex);
 	currentImage.fadeOut(700);
 	currentImage.removeClass('curry');
-	
 
 if (nextImageIndex == $('.slider__item:first').index()-1){
 	$('slider__item').eq(3).fadeIn(700);
